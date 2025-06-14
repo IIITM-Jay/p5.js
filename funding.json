@@ -1,1 +1,84 @@
-
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "individual",
+    "role": "steward",
+    "name": "Jay Dev Jha",
+    "email": "jaydev.neuroscitech@gmail.com",
+    "description": "I am a steward and active contributor to the p5.js project, currently involved in improving and stewarding aspects of the Friendly Error System (FES). My work focuses on improving developer experience by refining runtime error messaging, parameter validation, and integrating developer-friendly tooling such as Zod for schema enforcement. I’ve contributed actively through detailed pull requests considering every aspect thoroughly related to FES, constructor overload validation, optional parameter schema handling, test coverage, and alignment with p5 constants. My efforts also extend to improving feedback quality and usability of p5’s errors to support beginner coders and educators. I continue to collaborate closely with the maintainers and community to push toward a modernized FES architecture for the upcoming p5.js 2.0 release.",
+    "webpageUrl": {
+      "url": "https://github.com/IIITM-Jay/p5.js/blob/main/funding.json"
+    }
+  },
+  "funding": {
+    "channels": [
+      {
+        "guid": "mybank",
+        "type": "bank",
+        "description": "Will accept direct bank transfers. Kindly email for the details."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "fes-validation-zod4",
+        "status": "active",
+        "name": "FES: Parameter Validation (Zod 3 → Zod 4)",
+        "description": "Upgrade Friendly Errors parameter validation to use Zod 4 schemas with full test coverage, replacing outdated custom logic.",
+        "amount": 10000,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "mybank"
+        ]
+      },
+      {
+        "guid": "fes-key-migration-warnings",
+        "status": "active",
+        "name": "FES: KeyCode Migration Warnings",
+        "description": "Detect and warn users when legacy `keyCode === CONSTANT` patterns are used, improving transition from p5.js 1.x to 2.x.",
+        "amount": 5000,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "mybank"
+        ]
+      },
+      {
+        "guid": "fes-international-fixes",
+        "status": "active",
+        "name": "FES: Localization & Reserved Words Fixes",
+        "description": "Fix errors in non-English locales that arise from reserved word usage and translator race conditions.",
+        "amount": 5000,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "mybank"
+        ]
+      },
+      {
+        "guid": "fes-testing-docs",
+        "status": "active",
+        "name": "FES: Testing, Docs & Examples",
+        "description": "Add comprehensive unit tests, update documentation, and provide usage examples to improve developer onboarding.",
+        "amount": 5000,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "mybank"
+        ]
+      },
+      {
+        "guid": "fes-performance-optimization",
+        "status": "active",
+        "name": "FES: Performance Optimization",
+        "description": "Ensure FES efficiency by upgrading Zod and optimizing runtime validation to reduce overhead.",
+        "amount": 5000,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "mybank"
+        ]
+      }
+    ]
+  }
+}
