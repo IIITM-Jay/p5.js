@@ -5,16 +5,39 @@
     "role": "steward",
     "name": "Jay Dev Jha",
     "email": "jaydev.neuroscitech@gmail.com",
+    "phone": "",
     "description": "I am a steward and active contributor to the p5.js project, currently involved in improving and stewarding aspects of the Friendly Error System (FES). My work focuses on improving developer experience by refining runtime error messaging, parameter validation, and integrating developer-friendly tooling such as Zod for schema enforcement. I’ve contributed actively through detailed pull requests considering every aspect thoroughly related to FES, constructor overload validation, optional parameter schema handling, test coverage, and alignment with p5 constants. My efforts also extend to improving feedback quality and usability of p5’s errors to support beginner coders and educators. I continue to collaborate closely with the maintainers and community to push toward a modernized FES architecture for the upcoming p5.js 2.0 release.",
     "webpageUrl": {
       "url": "https://github.com/IIITM-Jay/p5.js/blob/main/funding.json"
     }
   },
+  "projects": [
+    {
+      "guid": "p5js",
+      "name": "p5.js Library",
+      "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing.",
+      "webpageUrl": {
+        "url": "https://github.com/IIITM-Jay/p5.js/blob/main/funding.json"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/IIITM-Jay/p5.js"
+      },
+      "licenses": [
+        " LGPL-2.1"
+      ],
+      "tags": [
+        "design",
+        "education",
+        "graphics"
+      ]
+    }
+  ],
   "funding": {
     "channels": [
       {
         "guid": "mybank",
         "type": "bank",
+        "address": "",
         "description": "Will accept direct bank transfers. Kindly email for the details."
       }
     ],
@@ -79,6 +102,7 @@
           "mybank"
         ]
       }
-    ]
+    ],
+    "history": null
   }
 }
